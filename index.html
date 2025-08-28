@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GeoGuessr Guide – Southeast Asia</title>
+  <meta name="description" content="A complete guide for GeoGuessr players in Southeast Asia: how to pay, country-specific clues, gameplay tips, FAQs, and resources." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(10px); }
+    .section { scroll-margin-top: 90px; }
+@media (max-width: 900px) { 
+img { 
+   max-width: 100%;
+   height: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+}	
+
+
+  </style>
+</head>
+<body class="bg-gradient-to-b from-sky-50 via-white to-indigo-50 text-slate-800">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/90 backdrop-blur">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#top" class="flex items-center gap-3">
+          <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-indigo-600 text-white font-bold shadow">🌏</span>
+          <span class="font-extrabold tracking-tight text-lg">GeoGuessr SEA Guide</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+          <a href="#pay" class="hover:text-indigo-600">Paying</a>
+          <a href="#clues" class="hover:text-indigo-600">Clues</a>
+          <a href="#tips" class="hover:text-indigo-600">Pro Tips</a>
+          <a href="#countries" class="hover:text-indigo-600">Countries</a>
+          <a href="#maps" class="hover:text-indigo-600">Maps</a>
+          <a href="#faq" class="hover:text-indigo-600">FAQ</a>
+          <a href="#resources" class="hover:text-indigo-600">Resources</a>
+        </nav>
+        <a href="#pay" class="hidden sm:inline-flex items-center gap-2 rounded-2xl bg-indigo-600 px-4 py-2 text-white text-sm font-semibold shadow hover:bg-indigo-500">Start Here</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="section relative">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <div class="grid items-center gap-10 md:grid-cols-2">
+        <div>
+          <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
+            Your Ultimate GeoGuessr Guide for <span class="bg-gradient-to-r from-sky-500 to-indigo-600 bg-clip-text text-transparent">Southeast Asia</span>
+          </h1>
+          <p class="mt-4 text-slate-600 text-lg">Learn how to pay for GeoGuessr, master country-specific clues, and level up your gameplay—tailored for players in the Philippines, Singapore, Malaysia, Indonesia, Thailand, and Vietnam.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#pay" class="rounded-2xl bg-indigo-600 px-5 py-3 text-white font-semibold shadow hover:bg-indigo-500">How to Pay</a>
+            <a href="#clues" class="rounded-2xl bg-white px-5 py-3 font-semibold shadow border border-slate-200 hover:border-indigo-300">SEA Clues</a>
+          </div>
+          <p class="mt-3 text-xs text-slate-500">Not affiliated with GeoGuessr. For educational use.</p>
+        </div>
+        <div class="relative">
+          <div class="glass rounded-3xl p-6 shadow-xl border border-white/60">
+            <div class="grid grid-cols-3 gap-3 text-center text-sm">
+              <div class="rounded-2xl bg-white p-4 shadow">
+                <div class="text-3xl">🇵🇭</div>
+                <div class="mt-1 font-semibold">Philippines</div>
+                <div class="text-xs text-slate-500">Jeepneys, barangay signs</div>
+              </div>
+              <div class="rounded-2xl bg-white p-4 shadow">
+                <div class="text-3xl">🇮🇩</div>
+                <div class="mt-1 font-semibold">Indonesia</div>
+                <div class="text-xs text-slate-500">Jalan, painted poles</div>
+              </div>
+              <div class="rounded-2xl bg-white p-4 shadow">
+                <div class="text-3xl">🇲🇾</div>
+                <div class="mt-1 font-semibold">Malaysia</div>
+                <div class="text-xs text-slate-500">Yellow signs, plantations</div>
+              </div>
+              <div class="rounded-2xl bg-white p-4 shadow">
+                <div class="text-3xl">🇹🇭</div>
+                <div class="mt-1 font-semibold">Thailand</div>
+                <div class="text-xs text-slate-500">Thai script, tuk-tuks</div>
+              </div>
+              <div class="rounded-2xl bg-white p-4 shadow">
+                <div class="text-3xl">🇻🇳</div>
+                <div class="mt-1 font-semibold">Vietnam</div>
+                <div class="text-xs text-slate-500">Accented Latin text</div>
+              </div>
+              <div class="rounded-2xl bg-white p-4 shadow">
+                <div class="text-3xl">🇸🇬</div>
+                <div class="mt-1 font-semibold">Singapore</div>
+                <div class="text-xs text-slate-500">Clean roads, MRT</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paying -->
+  <section id="pay" class="section py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="mb-8 flex items-center justify-between">
+        <h2 class="text-2xl sm:text-3xl font-extrabold">How to Pay for GeoGuessr in Southeast Asia</h2>
+        <span class="text-xs text-slate-500">Updated for common payment options</span>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Philippines -->
+        <article class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <div class="flex items-center gap-2 text-sm font-semibold"><span class="text-xl">🇵🇭</span> Philippines</div>
+          <ul class="mt-3 list-disc pl-5 text-sm leading-6 text-slate-700">
+            <li>Debit/Credit cards (Visa/Mastercard)</li>
+            <li><strong>GCash Mastercard</strong> or GCash Virtual Card → link to PayPal</li>
+            <li>Maya (formerly PayMaya) cards</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">Tip: If the site declines your card, try PayPal checkout or a virtual card (Wise/Revolut).</p>
+        </article>
+        <!-- Singapore -->
+        <article class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <div class="flex items-center gap-2 text-sm font-semibold"><span class="text-xl">🇸🇬</span> Singapore</div>
+          <ul class="mt-3 list-disc pl-5 text-sm leading-6 text-slate-700">
+            <li>Cards (Visa/Mastercard/AMEX)</li>
+            <li>Apple Pay / Google Pay (when available)</li>
+            <li>PayPal as fallback</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">Straightforward: most bank cards work out of the box.</p>
+        </article>
+        <!-- Malaysia -->
+        <article class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <div class="flex items-center gap-2 text-sm font-semibold"><span class="text-xl">🇲🇾</span> Malaysia</div>
+          <ul class="mt-3 list-disc pl-5 text-sm leading-6 text-slate-700">
+            <li>Maybank, CIMB debit/credit cards</li>
+            <li>PayPal (popular & stable)</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">If 3‑D Secure fails, link your card to PayPal and retry.</p>
+        </article>
+        <!-- Indonesia -->
+        <article class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <div class="flex items-center gap-2 text-sm font-semibold"><span class="text-xl">🇮🇩</span> Indonesia</div>
+          <ul class="mt-3 list-disc pl-5 text-sm leading-6 text-slate-700">
+            <li>BCA, Mandiri, BNI cards</li>
+            <li>PayPal; some users link OVO/DANA to virtual cards</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">Virtual cards (Wise/Revolut) help if local cards get blocked.</p>
+        </article>
+        <!-- Thailand -->
+        <article class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <div class="flex items-center gap-2 text-sm font-semibold"><span class="text-xl">🇹🇭</span> Thailand</div>
+          <ul class="mt-3 list-disc pl-5 text-sm leading-6 text-slate-700">
+            <li>Kasikorn, Bangkok Bank cards</li>
+            <li>PayPal widely accepted</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">Some use TrueMoney via virtual card → PayPal route.</p>
+        </article>
+        <!-- Vietnam -->
+        <article class="rounded-3xl bg-white p-6 shadow border border-slate-200">
+          <div class="flex items-center gap-2 text-sm font-semibold"><span class="text-xl">🇻🇳</span> Vietnam</div>
+          <ul class="mt-3 list-disc pl-5 text-sm leading-6 text-slate-700">
+            <li>Vietcombank, BIDV cards</li>
+            <li>PayPal often the most reliable</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">Enable international online payments in your banking app.</p>
+        </article>
+      </div>
+
+      <div class="mt-8 rounded-3xl border border-indigo-200 bg-indigo-50 p-6 text-sm text-indigo-900">
+        <h3 class="font-semibold">Payment Troubleshooting</h3>
+        <ul class="mt-2 list-disc pl-5 space-y-1">
+          <li>Turn on <strong>International / Online Payments</strong> in your bank app.</li>
+          <li>Ensure <strong>3‑D Secure / OTP</strong> is enabled.</li>
+          <li>Try <strong>PayPal</strong> or a <strong>virtual card</strong> (Wise, Revolut) if direct card fails.</li>
+          <li>Use a <strong>billing address</strong> that matches your bank record.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEA Clues -->
+  <section id="clues" class="section py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-extrabold">Southeast Asia: Quick Clues</h2>
+      <div class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- PH -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center gap-2"><span class="text-2xl">🇵🇭</span><h3 class="font-semibold">Philippines</h3></div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>English + Tagalog/Visayan signage; “Barangay”, “Purok”.</li>
+            <li>Jeepneys, tricycles; concrete barangay arcs.</li>
+            <li>Left-hand drive traffic, but drive on the <em>right</em> side.</li>
+          </ul>
+        </div>
+        <!-- ID -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center gap-2"><span class="text-2xl">🇮🇩</span><h3 class="font-semibold">Indonesia</h3></div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Words like <em>jalan</em> (road), <em>kota</em> (city).</li>
+            <li>Black/white painted poles; license plates black with white text.</li>
+            <li>Drives on the left.</li>
+          </ul>
+        </div>
+        <!-- MY -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center gap-2"><span class="text-2xl">🇲🇾</span><h3 class="font-semibold">Malaysia</h3></div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Malay words; yellow diamond road signs common.</li>
+            <li>Palm oil plantations; kilometer markers with state codes.</li>
+            <li>Drives on the left.</li>
+          </ul>
+        </div>
+        <!-- TH -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center gap-2"><span class="text-2xl">🇹🇭</span><h3 class="font-semibold">Thailand</h3></div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Thai script; royal portraits; many 7‑Elevens.</li>
+            <li>Yellow center lines; bilingual highway signs.</li>
+            <li>Drives on the left.</li>
+          </ul>
+        </div>
+        <!-- VN -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center gap-2"><span class="text-2xl">🇻🇳</span><h3 class="font-semibold">Vietnam</h3></div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Latin alphabet with diacritics (e.g., <em>Phố</em>, <em>Nguyễn</em>).</li>
+            <li>Heavy motorbike presence; narrow shop-house streets.</li>
+            <li>Drives on the right.</li>
+          </ul>
+        </div>
+        <!-- SG -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center gap-2"><span class="text-2xl">🇸🇬</span><h3 class="font-semibold">Singapore</h3></div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Multilingual signs (EN/中文/MS/தமிழ்); clean, modern roads.</li>
+            <li>MRT signage; HDB blocks with block numbers.</li>
+            <li>Drives on the left.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pro Tips -->
+  <section id="tips" class="section py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-8 md:grid-cols-2 items-start">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold">Pro Tips to Improve Fast</h2>
+          <ul class="mt-6 space-y-4 text-slate-700 text-sm leading-6">
+            <li><strong>Sun & Compass:</strong> Sun to the north suggests Southern Hemisphere (often Indonesia). Use the in‑game compass to orient.</li>
+            <li><strong>Road Markings:</strong> Yellow center lines common in TH/SG; PH/MY often show white edge lines.</li>
+            <li><strong>License Plates:</strong> ID: black plates white text; PH gov plates white with blue; SG white/yellow with clear fonts.</li>
+            <li><strong>Architecture:</strong> Temples (TH), mosques with onion domes (MY/ID), Spanish-era churches (PH).</li>
+            <li><strong>Vehicles:</strong> Tuk‑tuks (TH), jeepneys & tricycles (PH), motorbike swarms (VN/ID).</li>
+            <li><strong>Language Sniping:</strong> Small words reveal a lot—<em>ng</em> clusters (PH), diacritics galore (VN), Thai curls (TH), Malay/Indo cognates (MY/ID).</li>
+            <li><strong>Meta:</strong> Some regions have older/blurrier Street View coverage—adjust expectations for pinpointing.</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Training Routine (15–20 mins)</h3>
+          <ol class="mt-3 list-decimal pl-5 text-sm text-slate-700 space-y-2">
+            <li>Warm‑up: 3 rounds on a <em>SEA-only</em> map with no moving (1 min each).</li>
+            <li>Target practice: Pick one country map and do 5 locations with moving.</li>
+            <li>Review: After each guess, scan signs/landmarks you missed; take notes.</li>
+            <li>Speed round: 1 minute per location on mixed SEA.</li>
+            <li>Cooldown: One country you struggle with (e.g., rural Thailand).</li>
+          </ol>
+          <p class="mt-3 text-xs text-slate-500">Track mistakes you repeat and turn them into flashcards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Country Deep Dives -->
+  <section id="countries" class="section py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-extrabold">Country Deep Dives</h2>
+      <div class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Reusable card template for concise country specifics -->
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2"><span class="text-2xl">🇵🇭</span><h3 class="font-semibold">Philippines</h3></div>
+            <span class="rounded-full bg-indigo-50 px-3 py-1 text-xs text-indigo-700">Right‑side traffic</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Clues: Barangay markers, sari‑sari stores, Catholic monuments.</li>
+            <li>Roads: Mixed quality; concrete barangay roads are common.</li>
+            <li>Phone codes: 02 (Metro Manila), 32 (Cebu), 082 (Davao).</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2"><span class="text-2xl">🇮🇩</span><h3 class="font-semibold">Indonesia</h3></div>
+            <span class="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-700">Left‑side traffic</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Clues: <em>Jalan</em> signs, mosques, kilometer posts with province codes.</li>
+            <li>Roads: Painted curb poles; rural volcanic soil landscapes in Java.</li>
+            <li>Plates: Region code prefix (e.g., B = Jakarta).</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2"><span class="text-2xl">🇲🇾</span><h3 class="font-semibold">Malaysia</h3></div>
+            <span class="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-700">Left‑side traffic</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Clues: Yellow diamond warning signs; bilingual Malay/English.</li>
+            <li>Roads: Expressways with E‑numbers (e.g., E1, E2); toll plazas.</li>
+            <li>Architecture: Surau/mosques; shop-lots with uniform facades.</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2"><span class="text-2xl">🇹🇭</span><h3 class="font-semibold">Thailand</h3></div>
+            <span class="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-700">Left‑side traffic</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Clues: Thai script; royal yellow flags; spirit houses at homes.</li>
+            <li>Roads: Route shields with white numbers on black.</li>
+            <li>Urban: Skytrain in Bangkok; dense signage clusters.</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2"><span class="text-2xl">🇻🇳</span><h3 class="font-semibold">Vietnam</h3></div>
+            <span class="rounded-full bg-amber-50 px-3 py-1 text-xs text-amber-700">Right‑side traffic</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Clues: Words like <em>Phố</em>, <em>Quốc lộ</em>; red flags with yellow star.</li>
+            <li>Roads: Mileposts with QL (National Highways) numbers.</li>
+            <li>Urban: Dense wires, narrow alleys, cafe signage everywhere.</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2"><span class="text-2xl">🇸🇬</span><h3 class="font-semibold">Singapore</h3></div>
+            <span class="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-700">Left‑side traffic</span>
+          </div>
+          <ul class="mt-3 list-disc pl-5 text-sm text-slate-700 leading-6">
+            <li>Clues: HDB blocks with clear block numbers; ERP gantries.</li>
+            <li>Roads: Green expressway signs (AYE, PIE, CTE).</li>
+            <li>Urban: Clean sidewalks; bilingual EN/中文 signage common.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Maps to Try -->
+  <section id="maps" class="section py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-extrabold">Fun Maps to Try</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Southeast Asia</h3>
+          <p class="mt-2 text-sm text-slate-700">A broad tour of the region—great for warming up and learning cross-country differences.</p>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Philippines Provinces</h3>
+          <p class="mt-2 text-sm text-slate-700">From Luzon to Mindanao—practice recognizing barangay signs and coastal towns.</p>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Bangkok Streets</h3>
+          <p class="mt-2 text-sm text-slate-700">Urban chaos with Thai script clues and transit hints (BTS/MRT).</p>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Java Island (Indonesia)</h3>
+          <p class="mt-2 text-sm text-slate-700">Contrast dense urban areas with rural volcanic landscapes and provincial signage.</p>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Singapore City</h3>
+          <p class="mt-2 text-sm text-slate-700">Clean signage, numbered blocks, and expressway abbreviations—great for beginners.</p>
+        </div>
+        <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+          <h3 class="font-semibold">Vietnam National Highways</h3>
+          <p class="mt-2 text-sm text-slate-700">Hunt for QL markers and city names with distinctive diacritics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section py-14">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-extrabold">FAQ</h2>
+      <div class="mt-6 divide-y divide-slate-200 rounded-3xl border border-slate-200 bg-white shadow">
+        <details class="group p-6">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+            Can I play GeoGuessr for free?
+            <span class="transition group-open:rotate-45">➕</span>
+          </summary>
+          <p class="mt-3 text-sm text-slate-700">Yes, but with limitations. GeoGuessr Pro unlocks unlimited play, competitive modes, party mode, and more maps.</p>
+        </details>
+        <details class="group p-6">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+            What if my payment is declined?
+            <span class="transition group-open:rotate-45">➕</span>
+          </summary>
+          <p class="mt-3 text-sm text-slate-700">Enable international online payments and 3‑D Secure/OTP in your bank app, try PayPal, or use a virtual card (Wise/Revolut). Make sure your billing address matches your bank record.</p>
+        </details>
+        <details class="group p-6">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+            What are the best maps for SEA practice?
+            <span class="transition group-open:rotate-45">➕</span>
+          </summary>
+          <p class="mt-3 text-sm text-slate-700">Start with a regional Southeast Asia map, then dive into country maps like Philippines Provinces, Java, Bangkok, and Singapore City. Mix no-move rounds with standard play.</p>
+        </details>
+        <details class="group p-6">
+          <summary class="flex cursor-pointer list-none items-center justify-between font-semibold">
+            Any ethical rules to remember?
+            <span class="transition group-open:rotate-45">➕</span>
+          </summary>
+          <p class="mt-3 text-sm text-slate-700">Avoid cheating (external locators or leaked seeds). GeoGuessr thrives on fair play and learning. Support the devs if you can.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources / Footer -->
+  <section id="resources" class="section py-14">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="rounded-3xl bg-white p-6 border border-slate-200 shadow">
+        <h2 class="text-2xl sm:text-3xl font-extrabold">Resources</h2>
+        <ul class="mt-4 list-disc pl-5 text-sm text-slate-700 leading-7">
+          <li>GeoGuessr Official Help Center (payments, subscriptions)</li>
+          <li>Community-made Southeast Asia map collections</li>
+          <li>YouTube channels for region-specific tips and speedrun strategies</li>
+        </ul>
+        <p class="mt-3 text-xs text-slate-500">Note: Resource links intentionally left generic so you can add your own curated list or affiliate links.</p>
+      </div>
+
+      <footer class="mt-10 flex flex-col items-center gap-2 text-center text-xs text-slate-500">
+        <p>© <span id="year"></span> SEA GeoGuessr Guide. Not affiliated with GeoGuessr.</p>
+        <p>Built for players in 🇵🇭 🇸🇬 🇲🇾 🇮🇩 🇹🇭 🇻🇳</p>
+      </footer>
+    </div>
+  </section>
+
+  <script>
+    // Current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0">Converted to HTML with WordToHTML.net</a></p>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4581d6a58cf94e929fad52deda295622","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
